@@ -513,6 +513,21 @@
   lccn = {530.138}
 }
 
+@article{biroukCurrentStatusDroplet2006,
+  title = {Current Status of Droplet Evaporation in Turbulent Flows},
+  author = {Birouk, M and Gokalp, I},
+  year = 2006,
+  journal = {Progress in Energy and Combustion Science},
+  volume = {32},
+  number = {4},
+  pages = {408--423},
+  issn = {03601285},
+  doi = {10.1016/j.pecs.2006.05.001},
+  urldate = {2026-10-23},
+  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+  langid = {english}
+}
+
 @article{biswasThreeDimensionalLaminarFlow2023,
   title = {Three-{{Dimensional Laminar Flow Using Physics Informed Deep Neural Networks}}},
   author = {Biswas, Saykat Kumar and Anand, N. K.},
@@ -1720,6 +1735,24 @@
   author = {Garg, Rhaul},
   year = 2009,
   school = {Iowa State University}
+}
+
+@article{gassmollerBenchmarkingAccuracyHigherorder2024,
+  title = {Benchmarking the Accuracy of Higher-Order Particle Methods in Geodynamic Models of Transient Flow},
+  author = {Gassm{\"o}ller, Rene and Dannberg, Juliane and Bangerth, Wolfgang and Puckett, Elbridge Gerry and Thieulot, Cedric},
+  year = 2024,
+  month = may,
+  journal = {Geoscientific Model Development},
+  volume = {17},
+  number = {10},
+  pages = {4115--4134},
+  issn = {1991-9603},
+  doi = {10.5194/gmd-17-4115-2024},
+  urldate = {2026-10-23},
+  abstract = {Numerical models are a powerful tool for investigating the dynamic processes in the interior of the Earth and other planets, but the reliability and predictive power of these discretized models depends on the numerical method as well as an accurate representation of material properties in space and time. In the specific context of geodynamic models, particle methods have been applied extensively because of their suitability for advection-dominated processes and have been used in applications such as tracking the composition of solid rock and melt in the Earth's mantle, fluids in lithospheric- and crustal-scale models, light elements in the liquid core, and deformation properties like accumulated finite strain or mineral grain size, along with many applications outside the Earth sciences. There have been significant benchmarking efforts to measure the accuracy and convergence behavior of particle methods, but these efforts have largely been limited to instantaneous solutions, or time-dependent models without analytical solutions. As a consequence, there is little understanding about the interplay of particle advection errors and errors introduced in the solution of the underlying transient, nonlinear flow equations. To address these limitations, we present two new dynamic benchmarks for transient Stokes flow with analytical solutions that allow us to quantify the accuracy of various advection methods in nonlinear flow. We use these benchmarks to measure the accuracy of our particle algorithm as implemented in the ASPECT geodynamic modeling software against commonly employed field methods and analytical solutions. In particular, we quantify if an algorithm that is higher-order accurate in time will allow for better overall model accuracy and verify that our algorithm reaches its intended optimal convergence rate. We then document that the observed increased accuracy of higher-order algorithms matters for geodynamic applications with an example of modeling small-scale convection underneath an oceanic plate and show that the predicted place and time of onset of small-scale convection depends significantly on the chosen particle advection method. Descriptions and implementations of our benchmarks are openly available and can be used to verify other advection algorithms. The availability of accurate, scalable, and efficient particle methods as part of the widely used open-source code ASPECT will allow geodynamicists to investigate complex time-dependent geodynamic processes such as elastic deformation, anisotropic fabric development, melt generation and migration, and grain damage.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/nejcv/Zotero/storage/C2HHW6MV/Gassmöller et al. - 2024 - Benchmarking the accuracy of higher-order particle methods in geodynamic models of transient flow.pdf}
 }
 
 @article{generousNanofluidHeatTransfer2024,
@@ -3186,23 +3219,6 @@
   langid = {english}
 }
 
-@article{luoTheoreticalModelDrop1996a,
-  title = {Theoretical Model for Drop and Bubble Breakup in Turbulent Dispersions},
-  author = {Luo, Hean and Svendsen, Hallvard F.},
-  year = 1996,
-  month = may,
-  journal = {AIChE Journal},
-  volume = {42},
-  number = {5},
-  pages = {1225--1233},
-  issn = {0001-1541, 1547-5905},
-  doi = {10.1002/aic.690420505},
-  urldate = {2026-10-21},
-  abstract = {Abstract             A theoretical model for the prediction of drop and bubble (fluid-particle) breakup rates in turbulent dispersions was developed. The model is based on the theories of isotropic turbulence and probability and contains no unknown or adjustable parameters. Unlike previous work, this model predicts the breakage rate for original particles of a given size at a given combination of the daughter particle sizes and thus does not need a predefined daughter particle size distribution. The daughter particle size distribution is a result and can be calculated directly from the model. Predicted breakage fractions using the model for the air--water system in a high-intensity pipeline flow agree very well with the available 1991 experimental results of Hesketh et al. Comparisons of the developed model for specific particle breakage rate with earlier models show it to give breakage-rate values bracketed by other models. The spread in predictions is high, and improved experimental studies are recommended for verification.},
-  copyright = {http://onlinelibrary.wiley.com/termsAndConditions\#vor},
-  langid = {english}
-}
-
 @article{m.kuertenPointParticleDNSParticleLaden2016,
   title = {Point-{{Particle DNS}} and {{LES}} of {{Particle-Laden Turbulent}} Flow - a State-of-the-Art Review},
   author = {M. Kuerten, J. G.},
@@ -4332,6 +4348,21 @@
   abstract = {Machine-learning fluid flow Quantifying fluid flow is relevant to disciplines ranging from geophysics to medicine. Flow can be experimentally visualized using, for example, smoke or contrast agents, but extracting velocity and pressure fields from this information is tricky. Raissi et al. developed a machine-learning approach to tackle this problem. Their method exploits the knowledge of Navier-Stokes equations, which govern the dynamics of fluid flow in many scientifically relevant situations. The authors illustrate their approach using examples such as blood flow in an aneurysm. Science , this issue p. 1026 , A machine learning approach exploiting the knowledge of Navier-Stokes equations can extract detailed fluid flow information. , For centuries, flow visualization has been the art of making fluid motion visible in physical and biological systems. Although such flow patterns can be, in principle, described by the Navier-Stokes equations, extracting the velocity and pressure fields directly from the images is challenging. We addressed this problem by developing hidden fluid mechanics (HFM), a physics-informed deep-learning framework capable of encoding the Navier-Stokes equations into the neural networks while being agnostic to the geometry or the initial and boundary conditions. We demonstrate HFM for several physical and biomedical problems by extracting quantitative information for which direct measurements may not be possible. HFM is robust to low resolution and substantial noise in the observation data, which is important for potential applications.}
 }
 
+@article{rajekHighfidelityPseudospectralSimulations2026,
+  title = {High-Fidelity Pseudo-Spectral Simulations of Isotropic Turbulence: {{Direct}} Numerical Simulations with Semi-Adaptive Deterministic Forcing},
+  shorttitle = {High-Fidelity Pseudo-Spectral Simulations of Isotropic Turbulence},
+  author = {Rajek, Micha{\l} and Pozorski, Jacek},
+  year = 2026,
+  month = oct,
+  journal = {Computers \& Fluids},
+  volume = {319},
+  pages = {107248},
+  issn = {00457930},
+  doi = {10.1016/j.compfluid.2026.107248},
+  urldate = {2026-10-23},
+  langid = {english}
+}
+
 @article{ramirez-laboreoDynamicHeatMass2016,
   title = {Dynamic Heat and Mass Transfer Model of an Electric Oven for Energy Analysis},
   author = {{Ramirez-Laboreo}, Edgar and Sagues, Carlos and Llorente, Sergio},
@@ -5115,6 +5146,20 @@
   year = 1911,
   journal = {Bull. Acad. Sci. Cracovie A},
   volume = {1}
+}
+
+@book{SolvingOrdinaryDifferential1993,
+  title = {Solving {{Ordinary Differential Equations I}}},
+  year = 1993,
+  series = {Springer {{Series}} in {{Computational Mathematics}}},
+  volume = {8},
+  publisher = {Springer Berlin Heidelberg},
+  address = {Berlin, Heidelberg},
+  doi = {10.1007/978-3-540-78862-1},
+  urldate = {2026-10-23},
+  copyright = {http://www.springer.com/tdm},
+  isbn = {978-3-540-56670-0 978-3-540-78862-1},
+  langid = {english}
 }
 
 @incollection{sommerfeldNumericalMethodsDispersed2017,
@@ -5971,6 +6016,22 @@
   urldate = {2026-10-20},
   copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
   langid = {english}
+}
+
+@article{warwarukLocalFlowTopology2024,
+  title = {Local Flow Topology of a Polymer-Laden Turbulent Boundary Layer},
+  author = {Warwaruk, Lucas and Ghaemi, Sina},
+  year = 2024,
+  month = mar,
+  journal = {Journal of Fluid Mechanics},
+  volume = {983},
+  pages = {A22},
+  issn = {0022-1120, 1469-7645},
+  doi = {10.1017/jfm.2024.131},
+  urldate = {2026-10-23},
+  abstract = {Fine-scale flow motions are measured in a Newtonian and polymer drag-reduced turbulent boundary layer (TBL) at a common momentum thickness Reynolds number                                                                      \$Re\_\textbraceleft\textbackslash theta \textbraceright\$                                               of 2300. Relative to the Newtonian TBL, the polymer-laden flow has a 33~\% lower skin-friction coefficient. Three-dimensional (3-D) particle tracking velocimetry is used to measure the components of the velocity gradient tensor (VGT), rate of deformation tensor (RDT) and rate of rotation tensor (RRT). The invariants in these tensors are then used to distinguish the different types of fine-scale flow motions -- a method called the                                                                      \$\textbackslash varDelta\$                                               -criterion. Joint probability density functions (j.p.d.f.s) of the VGT invariants,                                                                      \$Q\$                                               and                                                                      \$R\$                                               , for the Newtonian TBL produce the familiar tear-drop pattern, commonly seen in direct numerical simulations of Newtonian turbulence. Relative to the Newtonian TBL, the polymer-laden flow has significantly attenuated values of                                                                      \$R\$                                               , implying an overall reduction in fluid stretching. The invariants in the RDT,                                                                      \$Q\_D\$                                               and                                                                      \$R\_D\$                                               , imply that straining motions of the polymeric flow are more two dimensional compared with the Newtonian flow. Moreover, j.p.d.f.s of                                                                      \$Q\_D\$                                               and the invariant in the RRT                                                                      \$Q\_W\$                                               , suggest that the flow consists of fewer biaxial extensional events and more shear-dominated flow. Few, if any, experimental investigations have measured the 3-D structure of fine-scale motions in a Newtonian and polymer drag-reduced TBL using the                                                                      \$\textbackslash varDelta\$                                               -criterion. We provide the first experimental evidence that supports the notion that an attenuation of fluid stretching, particularly biaxial straining motions, is central to the mechanism of polymer drag reduction.},
+  langid = {english},
+  file = {/home/nejcv/Zotero/storage/X78FN5Y3/Warwaruk and Ghaemi - 2024 - Local flow topology of a polymer-laden turbulent boundary layer.pdf}
 }
 
 @article{wedelCanCFDEstablish2021,
