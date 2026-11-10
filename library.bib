@@ -2048,6 +2048,19 @@
   isbn = {978-1-3999-2078-0}
 }
 
+@article{grossfieldBestPracticesQuantification2019,
+  title = {Best {{Practices}} for {{Quantification}} of {{Uncertainty}} and {{Sampling Quality}} in {{Molecular Simulations}} [{{Article}} v1.0]},
+  author = {Grossfield, Alan and Patrone, Paul N. and Roe, Daniel R. and Schultz, Andrew J. and Siderius, Daniel and Zuckerman, Daniel M.},
+  year = 2019,
+  journal = {Living Journal of Computational Molecular Science},
+  volume = {1},
+  number = {1},
+  issn = {25756524},
+  doi = {10.33011/livecoms.1.1.5067},
+  urldate = {2026-11-10},
+  file = {/home/nejcv/Zotero/storage/RYB5DSG6/Grossfield et al. - 2019 - Best Practices for Quantification of Uncertainty and Sampling Quality in Molecular Simulations [Arti.pdf}
+}
+
 @article{guazzelliFluctuationsInstabilitySedimentation2011,
   title = {Fluctuations and {{Instability}} in {{Sedimentation}}},
   author = {Guazzelli, {\'E}lisabeth and Hinch, John},
@@ -4208,6 +4221,23 @@
   abstract = {Abstract Many real world problems involve fluid flow phenomena, typically be described by the Navier--Stokes equations. The Navier--Stokes equations are partial differential equations (PDEs) with highly nonlinear properties. Currently mostly used methods solve this differential equation by discretizing geometries. In the field of fluid mechanics the finite volume method (FVM) is widely used for numerical flow simulation, so-called computational fluid dynamics (CFD). Due to high computational costs and cumbersome generation of the discretization they are not widely used in real time applications. Our presented work focuses on advancing PDE-constrained deep learning frameworks for more real-world applications with irregular geometries without parameterization. We present a Deep Neural Network framework that generate surrogates for non-geometric boundaries by data free solely physics driven training, by minimizing the residuals of the governing PDEs (i.e., conservation laws) so that no computationally expensive CFD simulation data is needed. We named this method geometry aware physics informed neural network---GAPINN. The framework involves three network types. The first network reduces the dimensions of the irregular geometries to a latent representation. In this work we used a Variational-Auto-Encoder (VAE) for this task. We proposed the concept of using this latent representation in combination with spatial coordinates as input for PINNs. Using PINNs we showed that it is possible to train a surrogate model purely driven on the reduction of the residuals of the underlying PDE for irregular non-parametric geometries. Furthermore, we showed the way of designing a boundary constraining network (BCN) to hardly enforce boundary conditions during training of the PINN. We evaluated this concept on test cases in the fields of biofluidmechanics. The experiments comprise laminar flow (Re\textbackslash textbackslash,=\textbackslash textbackslash,500) in irregular shaped vessels. The main highlight of the presented GAPINN is the use of PINNs on irregular non-parameterized geometries. Despite that we showed the usage of this framework for Navier Stokes equations, it should be feasible to adapt this framework for other problems described by PDEs.}
 }
 
+@article{oliverEstimatingUncertaintiesStatistics2014,
+  title = {Estimating Uncertainties in Statistics Computed from Direct Numerical Simulation},
+  author = {Oliver, Todd A. and Malaya, Nicholas and Ulerich, Rhys and Moser, Robert D.},
+  year = 2014,
+  month = mar,
+  journal = {Physics of Fluids},
+  volume = {26},
+  number = {3},
+  pages = {035101},
+  issn = {1070-6631, 1089-7666},
+  doi = {10.1063/1.4866813},
+  urldate = {2026-11-10},
+  abstract = {Rigorous assessment of uncertainty is crucial to the utility of direct numerical simulation (DNS) results. Uncertainties in the computed statistics arise from two sources: finite statistical sampling and the discretization of the Navier--Stokes equations. Due to the presence of non-trivial sampling error, standard techniques for estimating discretization error (such as Richardson extrapolation) fail or are unreliable. This work provides a systematic and unified approach for estimating these errors. First, a sampling error estimator that accounts for correlation in the input data is developed. Then, this sampling error estimate is used as part of a Bayesian extension of Richardson extrapolation in order to characterize the discretization error. These methods are tested using the Lorenz equations and are shown to perform well. These techniques are then used to investigate the sampling and discretization errors in the DNS of a wall-bounded turbulent flow at Re{$\tau$} {$\approx$} 180. Both small (Lx/{$\delta$} \texttimes{} Lz/{$\delta$} = 4{$\pi$} \texttimes{} 2{$\pi$}) and large (Lx/{$\delta$} \texttimes{} Lz/{$\delta$} = 12{$\pi$} \texttimes{} 4{$\pi$}) domain sizes are investigated. For each case, a sequence of meshes was generated by first designing a ``nominal'' mesh using standard heuristics for wall-bounded simulations. These nominal meshes were then coarsened to generate a sequence of grid resolutions appropriate for the Bayesian Richardson extrapolation method. In addition, the small box case is computationally inexpensive enough to allow simulation on a finer mesh, enabling the results of the extrapolation to be validated in a weak sense. For both cases, it is found that while the sampling uncertainty is large enough to make the order of accuracy difficult to determine, the estimated discretization errors are quite small. This indicates that the commonly used heuristics provide adequate resolution for this class of problems. However, it is also found that, for some quantities, the discretization error is not small relative to sampling error, indicating that the conventional wisdom that sampling error dominates discretization error for this class of simulations needs to be reevaluated.},
+  langid = {english},
+  file = {/home/nejcv/Zotero/storage/NFGS2EB9/Oliver et al. - 2014 - Estimating uncertainties in statistics computed from direct numerical simulation.pdf}
+}
+
 @article{orszagNumericalSimulationThreeDimensional1972,
   title = {Numerical {{Simulation}} of {{Three-Dimensional Homogeneous Isotropic Turbulence}}},
   author = {Orszag, Steven A. and Patterson, G. S.},
@@ -4810,6 +4840,22 @@
   urldate = {2025-03-16}
 }
 
+@article{rocconFLOW36SpectralSolver2025,
+  title = {{{FLOW36}}: {{A}} Spectral Solver for Phase-Field Based Multiphase Turbulence Simulations on Heterogeneous Computing Architectures},
+  shorttitle = {{{FLOW36}}},
+  author = {Roccon, Alessio and Soligo, Giovanni and Soldati, Alfredo},
+  year = 2025,
+  month = aug,
+  journal = {Computer Physics Communications},
+  volume = {313},
+  pages = {109640},
+  issn = {00104655},
+  doi = {10.1016/j.cpc.2025.109640},
+  urldate = {2026-11-10},
+  langid = {english},
+  file = {/home/nejcv/Zotero/storage/4TTLED93/Roccon et al. - 2025 - FLOW36 A spectral solver for phase-field based multiphase turbulence simulations on heterogeneous c.pdf}
+}
+
 @article{rogersQualitativeChangesAccompany2000,
   title = {Qualitative Changes Accompany Memory {{T}} Cell Generation: Faster, More Effective Responses at Lower Doses of Antigen},
   shorttitle = {Qualitative Changes Accompany Memory {{T}} Cell Generation},
@@ -5284,6 +5330,21 @@
   issn = {03605442},
   doi = {10.1016/j.energy.2018.12.172},
   urldate = {2023-12-11}
+}
+
+@article{shirianConvergenceStatisticsSimulations2023,
+  title = {On the Convergence of Statistics in Simulations of Stationary Incompressible Turbulent Flows},
+  author = {Shirian, Yasaman and Horwitz, Jeremy A.K. and Mani, Ali},
+  year = 2023,
+  month = nov,
+  journal = {Computers \& Fluids},
+  volume = {266},
+  pages = {106046},
+  issn = {00457930},
+  doi = {10.1016/j.compfluid.2023.106046},
+  urldate = {2026-11-10},
+  langid = {english},
+  file = {/home/nejcv/Zotero/storage/V87V8DMW/Shirian et al. - 2023 - On the convergence of statistics in simulations of stationary incompressible turbulent flows.pdf}
 }
 
 @article{siddaniPointParticleDragLift2023,
